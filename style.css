@@ -3,8 +3,26 @@
       --cinza-secundario:#c0c0c0;
       --botao-azul:#167bf7;
       --cor-de-fundo:#00030c;
+      --fontr-principal: "Inter";
+  }
+ 
+  *{
+     margin: 0;
+     padding: 0;
   }
 
   body {
-    background-color: var(--branco-principal);
+    background-color: var(--cor-de-fundo);
+    color: var (--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16pix;
+    font-weight: 400;    
+  }
+
+  .principal {
+      background-image: url(img/Background.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      align-items: center;
+      text-align: center;
   }
