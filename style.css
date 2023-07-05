@@ -33,13 +33,13 @@ padding: 0;
 }
 
 .container {
-    height: : 100vh;
+    height: 100vh;
     display: grid;
-    grid-templade-columns: 50% 50%; 
+    grid-template-columns: 50% 50%; 
   }
 
 .container__botao {
-     background-color: var (--botao-azul);
+     background-color: var(--botao-azul);
      border-radius: 5px;
      padding: 1em;
      color: var(--branco-principal);
