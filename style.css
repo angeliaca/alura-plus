@@ -25,6 +25,7 @@
       background-size: contain;
       align-items: center;
       text-align: center;
+      color: var(--branco-principal);
   }
 
 *{margin: 0;
@@ -45,6 +46,7 @@ padding: 0;
      color: var(--branco-principal);
      display: block;
      text-decoration: none;
+     margin-bottom: 1em 0;
   }
 
 .botao_secundario{
@@ -60,4 +62,13 @@ padding: 0;
 .container__titulo{
   font-size: 28px;
   font-weight: 700;
+}
+
+.container_imagem {
+  margin: 1em 0 2em 0;
+
+}
+
+.container__caixa {
+  margin: 0 6em;
 }
