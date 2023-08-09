@@ -72,3 +72,23 @@ padding: 0;
 .container__caixa {
   margin: 0 6em;
 }
+
+.secundario__imagem{
+  width: 80%;
+}
+
+.secundario {
+  align-items: center;
+  margin: 0 10em;
+}
+
+.descricao__titulo{
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--branco-principal);
+  margin-bottom: 0.3em;
+}
+
+.descricao__titulo{
+  color: var(--cinza-secundario);
+}
