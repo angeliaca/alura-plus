@@ -92,3 +92,32 @@ padding: 0;
 .descricao__titulo{
   color: var(--cinza-secundario);
 }
+
+.secundario__botao {
+     display: inline-block;
+     margin-top:  1em;
+}
+
+.container__descriçao{
+    padding: 2em;
+}
+
+.dispositivo__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.dispositivo{
+    text-align: center;
+}
+
+.dispositivo__titulo{
+    font-size: 48px;
+    color: var(--branco-principal)
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);  
+}
